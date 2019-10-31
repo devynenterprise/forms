@@ -1,6 +1,6 @@
-import { FormControl } from './models/form_control';
-import Validators from './validators';
-import FormGroup from './models/form_group';
+import { FormControl } from '../models/form_control';
+import Validators from '../validators/validators';
+import FormGroup from '../models/form_group';
 
 const control = new FormControl('abc@org.ac', Validators.email);
 

@@ -1,6 +1,6 @@
-import { FormConstants } from "./form_constants";
-import { ValidationErrors } from "./interfaces/validation-errors";
-import { FormControl } from "./models/form_control";
+import { FormConstants } from "../constants/form_constants";
+import { ValidationErrors } from "../interfaces/validation-errors";
+import { FormControl } from "../models/form_control";
 
 export default class Validators {
     /**

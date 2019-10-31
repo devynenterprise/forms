@@ -1,4 +1,4 @@
-import { FormConstants } from "../form_constants";
+import { FormConstants } from "../constants/form_constants";
 import { ValidatorFn } from "../interfaces/validator-fn";
 
 /**
