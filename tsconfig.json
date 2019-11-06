@@ -2,6 +2,10 @@
     "compilerOptions": {
         "target": "esnext",
         "watch": true,
-        "module": "commonjs"
+        "module": "commonjs",
+        "sourceMap": true /* Generates corresponding '.map' file. */,
+        "strict": true /* Enable all strict type-checking options. */,
+
+
     }
 }

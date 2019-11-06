@@ -1,6 +1,6 @@
-import { FormControl } from '../models/form_control';
+import { FormControl } from '../models/FormControl';
 import Validators from '../validators/validators';
-import FormGroup from '../models/form_group';
+import FormGroup from '../models/FormGroup';
 
 const control = new FormControl('abc@org.ac', Validators.email);
 
@@ -9,4 +9,6 @@ const group = new FormGroup({
     email: new FormControl('jayde@.a.ca', Validators.email)
 })
 
-console.log(group)
+console.log('getting email')
+console.log(group.get('email').value)
+

@@ -1,4 +1,4 @@
-import { FormControl } from "../models/form_control";
+import { FormControl } from "../models/FormControl";
 import { ValidationErrors } from "./validation-errors";
 
 export interface ValidatorFn {
